@@ -1,7 +1,7 @@
 // Reverse Number
 function reverseNumber(n) {
-  n = n + "";  
-    return (
+  n = n + "";
+  return (
     n.split("").reverse().join("")
   );
 }
